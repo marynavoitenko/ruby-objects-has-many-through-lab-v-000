@@ -9,4 +9,12 @@ class Doctor
   def add_appointment(appointment)
     @appointments << appointment
   end
+
+  def appointments
+    @appointments
+  end
+
+  def patients
+    self.appointments.patients
+  end
 end
