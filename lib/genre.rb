@@ -7,7 +7,7 @@ class Genre
   end
 
   def add_song(song)
-    # self.
+    self.songs << song
   end
 
 end
