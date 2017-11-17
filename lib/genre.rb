@@ -16,7 +16,7 @@ class Genre
 
   def artists
     @songs.collect do |song|
-      song.genre
+      song.artist
     end
   end
 
